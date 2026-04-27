@@ -23,7 +23,7 @@ endpoints:
   # This name will be used when generating the managed API
   - name: dependent-service-public
     # +optional Display name for the endpoint.
-    displayName: Dependent Service API
+    displayName: Dependent Service Public API
     # +required Service section has the user service endpoint details
     service:
       # +optional Base path of the API that gets exposed via the endpoint.
@@ -47,7 +47,7 @@ endpoints:
   # This name will be used when generating the managed API
   - name: dependent-service-org
     # +optional Display name for the endpoint.
-    displayName: Dependent Service API
+    displayName: Dependent Service Organization API
     # +required Service section has the user service endpoint details
     service:
       # +optional Base path of the API that gets exposed via the endpoint.
