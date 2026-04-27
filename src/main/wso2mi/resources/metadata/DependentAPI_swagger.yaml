@@ -1,0 +1,25 @@
+openapi: 3.0.3
+info:
+  title: Dependent API
+  version: 1.0.0
+  description: API to retrieve dependent details
+
+servers:
+  - url: http://localhost:8280/dependent
+
+paths:
+  /:
+    get:
+      summary: Get dependent details
+      operationId: getDependent
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  dependent:
+                    type: string
+                    example: john
